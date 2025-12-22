@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins, "Noto Sans KR", sans-serif;
+  margin: 0;
+}
+
+.header {
+  background-image: url("bg.png");
+  background-repeat: no-repeat;
+  background-postion: center;
+  background-size: cover;
+  color: #ffffff;
+}
+
+.header-title {
+  padding: 12px 40px;
+  line-height: 30px;
+  color: #fffff;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#header-title-accent {
+  font-weight: 700;
+}
+
+.header-content {
+  margin: 0 auto;
+  padding: 80px 0px 280px;
+  width: 720px;
+}
+
+.header-tagline-small {
+  margin: 12px 0;
+  color: #8287a4;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+}
+
+.header-tagline {
+  margin: 0;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 74px;
+}
+
+.header-description {
+  font-size: 14px;
+  font-weight: 400;
+  color: #8287a4;
+  line-height: 27px;
+  margin: 14px 0;
+}
+
+.section {
+  padding: 74px 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 720px;
+}
+
+.title {
+  color: #161346;
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 42px;
+}
+
+.chainit {
+  border-radius: 24px;
+  width: 100%;
+}
+
+.chainit-description {
+  margin: 32px 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: #4c497b;
+}
+
+.chainit-button {
+  border-radius: 8px;
+  background-color: #413c91;
+}
