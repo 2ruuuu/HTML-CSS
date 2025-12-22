@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+label {
+  display: block;
+  margin: 16px 0 8px;
+  color: #2c2c2c;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+input {
+  display: block;
+  font-size: 16px;
+  padding: 16px 24px;
+  margin: 8px 0;
+  width: 100%;
+  border: 1px solid #d1d1d1;
+  color: #ababab;
+  line-height: 24px;
+}
+
+button {
+  border: none;
+  display: block;
+  padding: 16px;
+  margin: 24px 0;
+  background-color: #2c2c2c;
+  text-align: center;
+  font-size: 18px;
+  text-weight: 700;
+  color: #ffffff;
+  width: 100%;
+}
+
+.login {
+  margin: 120px auto;
+  width: 360px;
+}
+
+.login-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 24px 0;
+  text-align: center;
+  color: #4e4e4e;
+}
+
+.login-forgot {
+  text-align: right;
+}
+
+.login-forgot-link {
+  font-size: 14px;
+  color: #ababab;
+}
+
+.login-signup {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  color: #ababab;
+}
+
+.login-signup-link {
+  color: #2c2c2c;
+}
