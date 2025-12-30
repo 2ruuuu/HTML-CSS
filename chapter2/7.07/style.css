@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  background: #f8f8f8;
+  margin: 0;
+}
+
+.header {
+  background: #11172b;
+}
+
+.container {
+  padding: 12px 0;
+  margin: 0 auto;
+  width: 640px;
+}
+
+.codeit-img {
+  height: 24px;
+  margin-right: 13px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+  font-family: "Titillium Web";
+}
+
+.title > span {
+  font-weight: 300;
+}
+
+.section {
+  margin: 0 auto;
+  width: 640px;
+}
+
+.depart-section {
+  margin: 40px 0 20px;
+  padding: 24px 32px;
+  border-radius: 8px;
+  background: #ebeff8;
+}
+
+.depart-img {
+  height: 12px;
+}
+
+.depart-word {
+  font-size: 16px;
+  color: #b3bdd5;
+}
+
+.where-to-go {
+  margin: 8px 0 24px;
+  color: #000000;
+  font-family: "Titillium Web";
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.date {
+  padding: 8px 24px;
+  border-radius: 4px;
+  color: #000000;
+  font-size: 16px;
+  background: #ffffff;
+  font-weight: 550;
+  display: inline-block;
+  margin: 16px 0;
+}
+
+.depart-section > p {
+  font-size: 12px;
+  color: #b3bdd5;
+}
+
+hr {
+  border: none;
+  border-bottom: 1px dashed #b6bfd3;
+  margin: 20px 0;
+}
+
+.ticket-section {
+  background: #ffffff;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+h2 {
+  padding: 8px 24px;
+  color: #16bf97;
+  font-family: "Titillium Web";
+  font-size: 12px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.ticket-section > hr {
+  border: none;
+  border-bottom: 1px solid #dbf1ec;
+  margin: 0;
+}
+
+.ticket-container {
+  margin: 0 24px;
+  color: #b3bdd5;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.departure-arrival {
+  margin: 26px 0 4px;
+}
+
+.time {
+  color: #1a345e;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.time > img {
+  width: 18px;
+  margin: 0 10px;
+}
+
+.airplane {
+  margin: 4px 0;
+}
+
+.plane-number {
+  font-size: 16px;
+  color: #0b1f66;
+}
+
+.menu {
+  padding-bottom: 24px;
+  margin-top: 4px;
+  text-align: right;
+  color: #1a345e;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.menu > span {
+  margin: 0 24px;
+}
