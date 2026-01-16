@@ -1,0 +1,572 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  font-family: "Pretendard Variable", Pretendard;
+}
+
+header {
+  width: 1280px;
+  min-width: 1280px;
+  height: 215px;
+  margin: 0 auto;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  width: 1280px;
+  min-width: 1280px;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* 헤더 탑 */
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.header-top-menu {
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.header-top-icon {
+  display: block;
+  background-size: 468px 457px;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+}
+
+#header-top-icon1 {
+  background-image: url("https://pm.pstatic.net/resources/asset/sp_main.3427b960.png");
+  background-position: -311px -151px;
+}
+
+#header-top-icon2 {
+  background-image: url("https://pm.pstatic.net/resources/asset/sp_main.3427b960.png");
+  background-position: 0px -318px;
+}
+
+#header-top-icon3 {
+  background-image: url("https://pm.pstatic.net/resources/asset/sp_main.3427b960.png");
+  background-position: -311px -217px;
+}
+
+#header-top-icon4 {
+  background-image: url("https://pm.pstatic.net/resources/asset/sp_main.3427b960.png");
+  background-position: -66px -318px;
+}
+
+/* 검색 바 */
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 58px;
+  width: 706px;
+  border: 1px solid #03c75a;
+  border-radius: 33px;
+  margin: 10px auto;
+  overflow: hidden;
+}
+
+.search-logo-container {
+  display: block;
+  padding: 17px 16px 17px 27px;
+}
+
+.search-logo-svg {
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+.search-logo-svg > svg {
+  fill: #03c75a;
+}
+
+.search-main {
+  width: 100%;
+  height: 100%;
+  padding: 17px 0;
+  line-height: 24px;
+  font-weight: bold;
+  color: black;
+  border-radius: 0;
+}
+
+.keyboard-autocomplete-icon-container {
+  display: flex;
+  height: 100%;
+}
+
+.keyboard-icon-container,
+.autocomplete-icon-container,
+.search-reading-glasses-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.keyboard-icon-container {
+  padding: 22px 3px;
+}
+
+.keyboard-icon {
+  display: block;
+  background-size: 468px 457px;
+  background-repeat: no-repeat;
+  background-image: url("https://pm.pstatic.net/resources/asset/sp_main.3427b960.png");
+  background-position: -273px -279px;
+  width: 24px;
+  height: 14px;
+}
+
+.autocomplete-icon-container {
+  padding: 26px 6px;
+}
+
+.autocomplete-icon {
+  display: block;
+  background-size: 468px 457px;
+  background-repeat: no-repeat;
+  background-image: url("https://pm.pstatic.net/resources/asset/sp_main.3427b960.png");
+  background-position: -457px -411px;
+  width: 10px;
+  height: 6px;
+}
+
+.search-reading-glasses-container {
+  display: block;
+  padding: 17px 27px 17px 16px;
+}
+
+.search-reading-glasses-svg {
+  width: 25px;
+  height: 25px;
+  display: block;
+}
+
+/* 네이게이션 바 */
+.navigation-bar {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  gap: 2px;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.nav-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://pm.pstatic.net/resources/asset/sp_main.3427b960.png");
+  background-position: -153px -142px;
+
+  background-size: 468px 457px;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+}
+
+.nav-icon {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url("https://pm.pstatic.net/resources/asset/sp_main.3427b960.png");
+  background-size: 468px 457px;
+  background-repeat: no-repeat;
+}
+
+#mail-icon {
+  background-position: -204.5px -220px;
+}
+
+#cafe-icon {
+  background-position: -40.5px -220px;
+}
+
+#blog-icon {
+  background-position: 0.5px -220px;
+}
+
+#store-icon {
+  background-position: -41px -261px;
+}
+
+#news-icon {
+  background-position: -270px -206px;
+}
+
+#certificate-icon {
+  background-position: -123px -261px;
+}
+
+#estate-icon {
+  background-position: -0px -261px;
+}
+
+#map-icon {
+  background-position: -270px -1px;
+}
+
+#manhwa-icon {
+  background-position: -164px -261px;
+}
+
+#chizizic-icon {
+  width: 40px;
+  height: 40px;
+}
+
+#more-icon {
+  background-position: -270px -165px;
+}
+
+#ad-icon {
+  background-position: -204.5px -220px;
+}
+
+.nav-container:last-child {
+  position: relative;
+  margin-left: 16px;
+}
+
+.nav-container:last-child::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 12px;
+  left: -8px;
+  width: 1px;
+  height: 20px;
+  background-color: #ebeef1;
+}
+
+/* 왼쪽 섹션 */
+
+/* 왼쪽 첫번째 섹션 */
+.left-section {
+  width: 830px;
+  flex-shrink: 0;
+}
+
+.right-section {
+  width: 420px;
+  flex-shrink: 0;
+}
+
+.left-first-section {
+  width: 100%;
+  height: 130px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 0 0 1px #0000001a;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.left-first-section > img {
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
+}
+
+/* 왼쪽 두번째 섹션 */
+
+.left-second-section {
+  width: 100%;
+  box-shadow: 0 0 0 1px #0000001a;
+  margin-top: 16px;
+  border-radius: 8px;
+}
+
+.left-second-section-navbar {
+  padding: 18px 20px 17px;
+}
+
+.left-second-section-navbar-container {
+  display: flex;
+  flex: 1;
+}
+
+.left-second-section-navbar-container > ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.left-second-section-navbar-container-listitem {
+  cursor: pointer;
+  color: #00000080;
+  font-size: 16.8px;
+  font-weight: 600;
+}
+
+.left-second-section-navbar-container-media,
+.left-second-section-navbar-container-enter {
+  position: relative;
+  margin-left: 7px;
+  display: flex;
+  align-items: center;
+}
+
+.left-second-section-navbar-container-media::before {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  margin-right: 7px;
+  border-radius: 50%;
+  vertical-align: top;
+  background-color: #00000080;
+}
+
+.left-second-section-navbar-container-enter::before {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 15px;
+  margin-right: 7px;
+  background-color: #00000080;
+  transform: skewX(-15deg);
+}
+
+.left-second-section-second-navbar {
+  display: flex;
+  margin: 0 20px;
+  padding: 12px 20px;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+  font-size: 14.7px;
+  color: #2e2e2e;
+  font-weight: 500;
+}
+
+.left-second-section-second-navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.left-second-section-second-navbar-container > ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.left-second-section-second-navbar-container > ul > li {
+  cursor: pointer;
+}
+
+.left-second-section-second-navbar-container > span {
+  display: block;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.left-second-section-second-navbar-container-movie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-second-section-second-navbar-container-movie::before {
+  content: "";
+  display: block;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background-color: #00000026;
+  margin: 7px;
+}
+
+.left-second-section-content {
+  display: flex;
+  margin: 18px 20px;
+  gap: 10px;
+}
+
+.left-second-section-content-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50%;
+  margin-right: 8px;
+}
+
+.left-second-section-content-left-first {
+  display: flex;
+  align-items: center;
+}
+
+.left-second-section-content-img {
+  border-radius: 8px;
+  width: 50%;
+  margin-right: 20px;
+}
+
+.left-second-section-content-left-text {
+  display: block;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-height: 42px;
+  line-height: 21px;
+  color: inherit;
+}
+.left-second-section-content-left-text-sub {
+  margin-top: 7px;
+  color: #737373;
+}
+
+.left-second-section-content-left-second {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.left-second-section-content-right {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+  padding-right: 42px;
+  margin: -10px 0 0 0;
+}
+
+.left-second-section-content-right > ul {
+  list-style: none;
+
+  padding: 0;
+  width: 100%;
+}
+
+.left-second-section-content-right > ul > li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.left-second-section-content-right-a {
+  flex: 1;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 21px;
+  color: #2e2e2e;
+  margin-top: 16px;
+}
+
+.left-second-section-content-right-span {
+  display: inline-block;
+  margin-top: 16px;
+  font-size: 13.65;
+  color: #737373;
+}
+
+/* 오른쪽 로그인 섹션 */
+
+.right-section-login {
+  box-shadow: 0 0 0 1px #0000001a;
+  border-radius: 8px;
+  padding: 21px 20px 18px;
+  line-height: 20px;
+}
+
+.right-section-login-container {
+}
+
+.right-section-login-container > p {
+  text-align: center;
+  color: #2e2e2e;
+  font-size: 14.7px;
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+}
+
+.login-button-container {
+  display: block;
+  margin-top: 13px;
+  padding: 17px 0;
+  border: 1px solid #0000000f;
+  border-radius: 4px;
+  background-color: #03a94d;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 500;
+  font-size: 14.7;
+  cursor: pointer;
+}
+
+.login-button-logo {
+  display: inline-block;
+  background-size: 468px 457px;
+  background-repeat: no-repeat;
+  background-image: url("https://pm.pstatic.net/resources/asset/sp_main.3427b960.png");
+  background-position: -130px -301px;
+  width: 72px;
+  height: 14px;
+  margin: 3px 8px 0 0;
+  vertical-align: top;
+}
+
+.login-bottom {
+  margin-top: 16px;
+  font-size: 13.65px;
+  color: #737373;
+}
+
+.login-bottom > ul {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}

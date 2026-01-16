@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Naver</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-top">
+        <div class="header-top-container">
+          <button class="header-top-menu" type="button">
+            <span id="header-top-icon1" class="header-top-icon"></span>
+          </button>
+          <button class="header-top-menu" type="button">
+            <span id="header-top-icon2" class="header-top-icon"></span>
+          </button>
+        </div>
+        <div class="header-top-container">
+          <button class="header-top-menu" type="button">
+            <span id="header-top-icon3" class="header-top-icon"></span>
+          </button>
+          <button class="header-top-menu" type="button">
+            <span id="header-top-icon4" class="header-top-icon"></span>
+          </button>
+        </div>
+      </div>
+      <div class="search-container">
+        <a class="search-logo-container" href="./index.html">
+          <span class="search-logo-svg">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16.273 12.845 7.376 0H0v24h7.727V11.155L16.624 24H24V0h-7.727v12.845z"
+              ></path>
+            </svg>
+          </span>
+        </a>
+        <input class="search-main" />
+        <div class="keyboard-autocomplete-icon-container">
+          <button class="keyboard-icon-container" type="button">
+            <span class="keyboard-icon"></span>
+          </button>
+          <button class="autocomplete-icon-container" type="button">
+            <span class="autocomplete-icon"></span>
+          </button>
+        </div>
+        <button class="search-reading-glasses-container">
+          <span class="search-reading-glasses-svg">
+            <svg
+              id="search-btn"
+              viewBox="0 0 50 50"
+              xmlns="http://www.w3.org/2000/svg"
+              style="fill: #03c75a"
+            >
+              <path
+                d="M22.13.5c11.378 0 20.632 9.256 20.632 20.63 0 4.699-1.566 9.155-4.439 12.782l10.164 10.165a2.41 2.41 0 0 1-1.706 4.115 2.412 2.412 0 0 1-1.706-.705L33.31 35.719a2.41 2.41 0 0 1 0-3.41 15.71 15.71 0 0 0 4.628-11.178c0-8.718-7.09-15.808-15.807-15.808-8.718 0-15.808 7.09-15.808 15.808 0 7.15 4.817 13.43 11.714 15.273a2.41 2.41 0 0 1 1.705 2.954 2.41 2.41 0 0 1-2.95 1.705C7.788 38.658 1.5 30.46 1.5 21.131 1.5 9.756 10.756.5 22.13.5zm4.716 34.746a3.483 3.483 0 1 1 0 6.966 3.483 3.483 0 0 1 0-6.966z"
+              ></path>
+            </svg>
+          </span>
+        </button>
+      </div>
+      <nav class="navigation-bar">
+        <a class="nav-container"
+          ><span class="nav-icon-container"
+            ><span class="nav-icon" id="mail-icon"></span></span
+          ><span>메일</span></a
+        >
+        <a class="nav-container"
+          ><span class="nav-icon-container"
+            ><span class="nav-icon" id="cafe-icon"></span></span
+          ><span>카페</span></a
+        >
+        <a class="nav-container"
+          ><span class="nav-icon-container"
+            ><span class="nav-icon" id="blog-icon"></span></span
+          ><span>블로그</span></a
+        >
+        <a class="nav-container"
+          ><span class="nav-icon-container"
+            ><span class="nav-icon" id="store-icon"></span></span
+          ><span>스토어</span></a
+        >
+        <a class="nav-container"
+          ><span class="nav-icon-container"
+            ><span class="nav-icon" id="news-icon"></span></span
+          ><span>뉴스</span></a
+        >
+        <a class="nav-container"
+          ><span class="nav-icon-container"
+            ><span class="nav-icon" id="certificate-icon"></span></span
+          ><span>증권</span></a
+        >
+        <a class="nav-container"
+          ><span class="nav-icon-container"
+            ><span class="nav-icon" id="estate-icon"></span></span
+          ><span>부동산</span></a
+        >
+        <a class="nav-container"
+          ><span class="nav-icon-container"
+            ><span class="nav-icon" id="map-icon"></span></span
+          ><span>지도</span></a
+        >
+        <a class="nav-container"
+          ><span class="nav-icon-container"
+            ><span class="nav-icon" id="manhwa-icon"></span></span
+          ><span>웹툰</span></a
+        >
+        <a class="nav-container"
+          ><span class="nav-icon-container"
+            ><img
+              src="https://s.pstatic.net/static/www/mobile/edit/20240112_1095/upload_1705057885416AaxUM.png"
+              id="chizizic-icon"
+              alt="치지직" /></span
+          ><span>치지직</span></a
+        >
+        <a class="nav-container" id="more-icon-container">
+          <span class="nav-icon-container">
+            <span class="nav-icon" id="more-icon"></span
+          ></span>
+        </a>
+        <a class="nav-container"
+          ><span class="nav-icon-container"
+            ><span class="nav-icon" id="map-icon"></span></span
+          ><span>지도</span></a
+        >
+      </nav>
+    </header>
+    <main>
+      <section class="left-section">
+        <div class="left-first-section">
+          <img
+            src="https://ssl.pstatic.net/melona/libs/1557/1557261/97ab4a41f9b2ad586e58_20260113170111537.jpg"
+            alt="영어 광고"
+          />
+        </div>
+        <div class="left-second-section">
+          <div class="left-second-section-navbar">
+            <div class="left-second-section-navbar-container">
+              <ul>
+                <li class="left-second-section-navbar-container-listitem">
+                  뉴스스탠드
+                </li>
+                <li
+                  class="left-second-section-navbar-container-media left-second-section-navbar-container-listitem"
+                >
+                  언론사편집
+                </li>
+                <li
+                  class="left-second-section-navbar-container-enter left-second-section-navbar-container-listitem"
+                >
+                  엔터
+                </li>
+                <li
+                  class="left-second-section-navbar-container-listitem left-second-section-navbar-container-enter"
+                >
+                  스포츠
+                </li>
+                <li
+                  class="left-second-section-navbar-container-listitem left-second-section-navbar-container-enter"
+                >
+                  경제
+                </li>
+                <li
+                  class="left-second-section-navbar-container-listitem left-second-section-navbar-container-enter"
+                >
+                  쇼핑투데이
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="left-second-section-second-navbar">
+            <div class="left-second-section-second-navbar-container">
+              <ul>
+                <li>드라마</li>
+                <li class="left-second-section-second-navbar-container-movie">
+                  영화
+                </li>
+                <li class="left-second-section-second-navbar-container-movie">
+                  뮤직
+                </li>
+                <li class="left-second-section-second-navbar-container-movie">
+                  연애
+                </li>
+                <li class="left-second-section-second-navbar-container-movie">
+                  네이버TV
+                </li>
+                <li class="left-second-section-second-navbar-container-movie">
+                  연재
+                </li>
+              </ul>
+              <span>엔터홈</span>
+            </div>
+          </div>
+          <div class="left-second-section-content">
+            <div class="left-second-section-content-left">
+              <div class="left-second-section-content-left-first">
+                <img
+                  class="left-second-section-content-img"
+                  src="https://imgnews.pstatic.net/image/117/2026/01/15/0004026510_001_20260115070613534.png?type=w647"
+                />
+                <div>
+                  <a
+                    class="left-second-section-content-left-text"
+                    target="_blank"
+                    href="https://m.entertain.naver.com/article/117/0004026510"
+                    >현주엽 "40kg 빠져, 정신과 약 하루 20알"…아들에겐 "망가진
+                    영웅"</a
+                  >
+                  <div class="left-second-section-content-left-text-sub">
+                    마이데일리 1시간 전
+                  </div>
+                </div>
+              </div>
+              <div class="left-second-section-content-left-second">
+                <img
+                  class="left-second-section-content-img"
+                  src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fs.pstatic.net%2Fimgnews%2Fimage%2F117%2F2026%2F01%2F15%2F0004026497_001_20260115061411157.png%22&amp;type=nf370_208&amp;service=navermain"
+                />
+                <div>
+                  <a
+                    class="left-second-section-content-left-text"
+                    target="_blank"
+                    href="https://m.entertain.naver.com/article/117/0004026497"
+                    >박근형 "전도연 성질 보통 아냐, 연기 혼내니 울면서 덤벼"</a
+                  >
+                  <div class="left-second-section-content-left-text-sub">
+                    마이데일리 2시간 전
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="left-second-section-content-right">
+              <ul>
+                <li>
+                  <a
+                    class="left-second-section-content-right-a"
+                    target="_blank"
+                    href="https://m.entertain.naver.com/article/477/0000588922"
+                    >'특급 대세' 이채민→올데프 타잔, 나영석 손 잡았다…등산 예능
+                    출격[공식]</a
+                  >
+                  <span class="left-second-section-content-right-span">
+                    스포티비뉴스
+                  </span>
+                </li>
+                <li>
+                  <a
+                    class="left-second-section-content-right-a"
+                    target="_blank"
+                    href="https://m.entertain.naver.com/article/108/0003400281"
+                    >박나래 '전 남친' 정체, 직접 밝혔다 [스타이슈]</a
+                  >
+                  <span class="left-second-section-content-right-span">
+                    스포티비경향
+                  </span>
+                </li>
+                <li>
+                  <a
+                    class="left-second-section-content-right-a"
+                    target="_blank"
+                    href="https://m.entertain.naver.com/article/108/0003400284"
+                    >"갑자기 왜 울지?"..'꽃할배' 수발 전문 이서진, '원조 도련님'
+                    남진 만난다 [비서진]</a
+                  >
+                  <span class="left-second-section-content-right-span">
+                    스포티비서울
+                  </span>
+                </li>
+                <li>
+                  <a
+                    class="left-second-section-content-right-a"
+                    target="_blank"
+                    href="https://m.entertain.naver.com/article/468/0001209689"
+                    class="MediaContentsView-module__link_title___MTCcN"
+                    >"호텔인 줄"…'둘째 득녀' 조정석, ♥거미와 사는 집 최초
+                    공개</a
+                  >
+                  <span class="left-second-section-content-right-span">
+                    스포티비서울
+                  </span>
+                </li>
+                <li>
+                  <a
+                    class="left-second-section-content-right-a"
+                    target="_blank"
+                    href="https://m.entertain.naver.com/article/416/0000320294"
+                    >'오늘부터 인간입니다만', 빈틈없는 캐릭터 열전
+                    예고…이시우X장동주X김태우X최승윤 스틸컷 공개</a
+                  >
+                  <span class="left-second-section-content-right-span">
+                    스포츠동아
+                  </span>
+                </li>
+                <li>
+                  <a
+                    class="left-second-section-content-right-a"
+                    target="_blank"
+                    href="https://m.entertain.naver.com/article/382/0001248177"
+                    >블랙핑크, 2월 27일 컴백! 미니 3집 'DEADLINE' 발매 [공식]</a
+                  >
+                  <span class="left-second-section-content-right-span">
+                    텐아시아
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="right-section">
+        <div class="right-section-login">
+          <div class="right-section-login-container">
+            <p>네이버를 더 안전하고 편리하게 이용하세요</p>
+            <a class="login-button-container"
+              ><span class="login-button-logo"></span>로그인</a
+            >
+            <div class="login-bottom">
+              <ul>
+                <li>d</li>
+                <li>d</li>
+                <li>d</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
