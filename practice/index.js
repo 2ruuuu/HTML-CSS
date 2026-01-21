@@ -26,3 +26,7 @@ document.addEventListener('contextmenu', function (event) {
 
 // 테스트 코드
 document.addEventListener('mousedown', flagUp);
+
+const box2 = document.querySelector('#box2');
+
+box2.addEventListener('mouseover', prei)
